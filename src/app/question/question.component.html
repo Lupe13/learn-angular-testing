@@ -1,0 +1,6 @@
+<h1>{{ title }}</h1>
+<p>¿Te gusta viajar?</p>
+<div>
+    <button class="btn-si" [disabled]="disableButtons" (click)="saveAnswer(true)">Si</button>
+    <button class="btn-no" [disabled]="disableButtons" (click)="saveAnswer(false)">No</button>
+</div>
